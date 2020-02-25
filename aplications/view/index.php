@@ -36,8 +36,7 @@
             <?php
 				require_once('../controller/Controller.php');
 				$no=1;
-				foreach ($db->get('tabel_alamat') as $data) 
-				{
+				foreach ($db->get('tabel_alamat') as $data) :
 			?>
             <tr>
               <td><?= $no; ?></td>
@@ -52,7 +51,7 @@
             </tr>
             <?php
               $no++; 
-              } 
+              endforeach; 
             ?>
           </table>
           </div>

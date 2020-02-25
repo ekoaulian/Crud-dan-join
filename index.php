@@ -23,10 +23,12 @@
   <div class="lockscreen-name">Admin</div>
   <hr>
   <div class="text-center">
-    <a class="btn btn-primary" href="aplications/view">Klik Disini</a>
+    <a class="btn btn-primary" href="aplications/view">Nomor 1</a>
+    <a class="btn btn-primary" href="relations">Nomor 2</a>
   </div>
   <hr>
   <div class="lockscreen-footer text-center">
+    Program ini dibuat untuk memenuhi test (Back-End Programmer)
     Copyright &copy; 2020 <b><a href="#" class="text-black">Eas</a></b><br>
     All rights reserved
   </div>
